@@ -1,9 +1,10 @@
 import "./App.scss";
+import Jokes from "./components/jokes/Jokes";
 
 function App() {
   return (
     <div>
-      <h1>Hello World!!!</h1>
+      <Jokes />
     </div>
   );
 }
